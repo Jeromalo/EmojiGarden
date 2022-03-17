@@ -1,0 +1,35 @@
+.App{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(159,159,207,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.garden td{
+    border: 3px solid black;
+    width: 50px;
+    height: 50px;
+    background-color: yellowgreen;
+}
+
+.cont1{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(206,207,159,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.cont1 td{
+    border: 3px solid black;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+}
+
+.cont2{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(207,184,159,1) 35%, rgba(0,212,255,1) 100%);;
+}
+
+.cont2 td{
+    border: 3px solid black;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(0, 238, 255);
+}
