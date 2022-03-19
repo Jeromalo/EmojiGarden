@@ -3,7 +3,6 @@ import './Garden.css';
 import { useContext } from 'react';
 import ThemeContext from "../ThemeContext"
 import SpeedContext from "../SpeedContext";
-import ScoreContext from "./ScoreContext"
 
 export default function Garden(props) {
     
@@ -16,7 +15,6 @@ export default function Garden(props) {
         ['', '', '', '', ''] //4
     ];
 
-    const calculScore = useContext(ScoreContext)
     const [grille, setGrille] = useState(Grille);
     const  theme  = useContext(ThemeContext);
     const speed = useContext(SpeedContext)
@@ -38,7 +36,6 @@ export default function Garden(props) {
                     copy[i][j] = theme.emoji1;
                     setGrille(copy)
                     grow(i, j) //établir des paramètres i, j pour grow, qui seront des index dans la fonction.
-                    calculScore(0)
                     break boucle
                 }
             }
